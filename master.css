@@ -864,7 +864,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 63%, rgba(255,255,255,0) 
 .clientele{
   margin: 0;
 }
-@media (min-width: 770px) {
+@media (max-width: 770px) {
   .black h1 {
     font-size: 3rem;
     margin: 48% 10%;
