@@ -884,4 +884,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 63%, rgba(255,255,255,0) 
   .services .container .row .col-sm-12 {
     padding: 0% 17%;
   }
+  .services .container .row .col-md-6 {
+    padding: 0%;
+  }
 }
