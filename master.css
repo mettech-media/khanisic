@@ -5,9 +5,6 @@ font-family: 'Monoton', cursive;
 font-family: 'Nova Round', cursive;
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Spectral', serif; */
-
-
-
 body {
   background-image: url("back/backs.png");
   background-size: contain;
@@ -425,9 +422,10 @@ body {
                                                               OUR SERVICES
                                                   ///////////////////////////////////////// */
 /* Services Heading */
-.services{
+.services {
   padding: 4% 2%;
 }
+
 .services h1 {
   font-family: 'Spectral', serif;
   color: white;
@@ -462,6 +460,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
 .services .container .row .col-md-6 {
   padding: 0%;
   border-right: 13px solid transparent;
@@ -470,6 +469,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
 .services .container .row .col-sm-12 {
   padding: 0%;
   border-right: 13px solid transparent;
@@ -528,7 +528,7 @@ body {
   padding: 0 5%
 }
 
-.col{
+.col {
   padding-right: 0;
   padding-left: 0;
   height: 512px;
@@ -536,11 +536,13 @@ body {
   background-image: none;
   transition: 1s;
 }
-.col-sm-6{
-margin: 0 auto;
-display: none;
+
+.col-sm-6 {
+  margin: 0 auto;
+  display: none;
 }
-.small-team{
+
+.small-team {
   display: none;
 }
 
@@ -713,12 +715,14 @@ img {
   margin-bottom: 0;
   opacity: 1;
 }
+
 .col-sm-6 .team-item figcaption .social {
   margin-bottom: 0;
   opacity: 1;
   display: grid;
   margin-bottom: 14%;
 }
+
 .col-sm-6 .team-item figcaption .social a {
   color: #fff;
   font-size: 15px;
@@ -982,33 +986,30 @@ footer {
   margin: 0;
 }
 
-.welcome{
+.welcome {
   display: none;
   color: white;
-font-family: 'Spectral', serif;
+  font-family: 'Spectral', serif;
 }
-.welcome h1{
-padding: 0 6% 6% 6%;
+
+.welcome h1 {
+  padding: 0 6% 6% 6%;
   font-size: 13rem;
 }
-.logo{
+
+.logo {
   display: none;
 }
-.logo img{
+
+.logo img {
   margin: 0 20%;
   position: relative;
   max-width: 60%;
 }
-.cyan{
+
+.cyan {
   color: #10b2b2;
 }
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 1134px) {
   .black h1 {
@@ -1033,24 +1034,30 @@ padding: 0 6% 6% 6%;
   }
 
   .services .container .row .col-sm-12 {
-    padding: 0% 17%;
+    padding: 0% 10%;
   }
+
   .services .container .row .col-md-6 {
     padding: 4% 2%;
   }
-  .large-team{
+
+  .large-team {
     display: none;
   }
-  .col{
+
+  .col {
     display: none;
   }
-  .col-sm-6{
+
+  .col-sm-6 {
     display: block;
     padding: 6%;
   }
-  .small-team{
+
+  .small-team {
     display: block;
   }
+
   .col-sm-6 .team-item figcaption .social {
     margin-bottom: 0;
     opacity: 1;
@@ -1058,36 +1065,65 @@ padding: 0 6% 6% 6%;
     margin-bottom: 6%;
     position: relative;
   }
-  .intro{
+
+  .intro {
     display: none;
   }
-  .welcome{
+
+  .welcome {
     display: block;
   }
-  .main{
+
+  .main {
     display: none;
   }
-  .clientele{
+
+  .clientele {
     display: none;
   }
-  .team{
+
+  .team {
     display: none;
   }
-  .soc li{
+
+  .soc li {
     font-size: 4rem;
     padding: 2% 3%;
   }
-  .logo{
+
+  .logo {
     display: block;
   }
-  .mettech{
+
+  .mettech {
     height: 7rem;
   }
-  .mettech h1{
+
+  .mettech h1 {
     font-size: 4rem;
   }
-  h1.our{
+
+  h1.our {
     font-size: 6rem;
   }
 
+  .services .container .row .col-lg-4 .cap {
+    padding: 10% 0%;
+  }
+
+  .services .container .row .col-lg-4 .cap h1 {
+    font-size: 2.5rem;
+  }
+
+  .services .container .row .col-lg-4 .cap h4 {
+    font-size: 2rem;
+  }
+
+  .links {
+    font-size: 2rem;
+  }
+
+  .second {
+    font-size: 1.2rem;
+  }
 }
