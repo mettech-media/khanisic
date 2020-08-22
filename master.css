@@ -1014,6 +1014,7 @@ footer {
   }
   .col-sm-6{
     display: block;
+    padding: 6%;
   }
   .small-team{
     display: block;
@@ -1023,5 +1024,6 @@ footer {
     opacity: 1;
     display: grid;
     margin-bottom: 6%;
+    position: relative;
   }
 }
