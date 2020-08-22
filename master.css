@@ -5,6 +5,9 @@ font-family: 'Monoton', cursive;
 font-family: 'Nova Round', cursive;
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Spectral', serif; */
+
+
+
 body {
   background-image: url("back/backs.png");
   background-size: contain;
@@ -831,6 +834,7 @@ ul li img {
 .soc {
   margin-left: 0;
   margin-right: 0;
+  padding: 0;
 }
 
 .soc li {
@@ -978,6 +982,34 @@ footer {
   margin: 0;
 }
 
+.welcome{
+  display: none;
+  color: white;
+font-family: 'Spectral', serif;
+}
+.welcome h1{
+padding: 0 6% 6% 6%;
+  font-size: 13rem;
+}
+.logo{
+  display: none;
+}
+.logo img{
+  margin: 0 20%;
+  position: relative;
+  max-width: 60%;
+}
+.cyan{
+  color: #10b2b2;
+}
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1134px) {
   .black h1 {
     font-size: 3rem;
@@ -1026,4 +1058,36 @@ footer {
     margin-bottom: 6%;
     position: relative;
   }
+  .intro{
+    display: none;
+  }
+  .welcome{
+    display: block;
+  }
+  .main{
+    display: none;
+  }
+  .clientele{
+    display: none;
+  }
+  .team{
+    display: none;
+  }
+  .soc li{
+    font-size: 4rem;
+    padding: 2% 3%;
+  }
+  .logo{
+    display: block;
+  }
+  .mettech{
+    height: 7rem;
+  }
+  .mettech h1{
+    font-size: 4rem;
+  }
+  h1.our{
+    font-size: 6rem;
+  }
+
 }
