@@ -1036,6 +1036,7 @@ footer {
   .black h1 {
     font-size: 3rem;
     margin: 48% 10%;
+
   }
 
   .banner:nth-of-type(1) {
@@ -1093,9 +1094,12 @@ footer {
 
   .welcome {
     display: block;
+    font-family: 'Open Sans', sans-serif;
   }
 
-
+.welcome h1{
+  font-size: 9rem;
+}
 
   .soc li {
     font-size: 4rem;
@@ -1136,5 +1140,21 @@ footer {
   }
   .services .container .row .col-lg-4 .fig {
     height: 360px;
+  }
+  .our-services span{
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .our-contact span{
+     font-family: 'Open Sans', sans-serif; 
+  }
+  .services .container .row .col-lg-4 .cap h4{
+    font-size: 3rem;  
+  }
+  .services .container .row .col-lg-4 .cap h1{
+    font-size: 4rem;
+  } 
+  h1.our{
+    font-size: 6rem;
   }
 }
