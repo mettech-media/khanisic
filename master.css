@@ -24,6 +24,56 @@ body {
 
 
 /* Heading of About Us */
+.left{
+  text-align: left;
+  padding: 6% 0 6% 12%;
+}
+.right{
+  text-align: right;
+  padding: 6% 12% 6% 0;
+}
+.carousel-control-prev {
+    width: 10%;
+}
+.carousel-control-next {
+    width: 10%;
+}
+/* ///////./////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////ABOUT US///////// */
+.main{
+ text-align: center;
+}
+.main .carousel .carousel-inner .carousel-item .d-block .row .col-lg-4{
+  padding: 6% 8%;
+}
+.main .carousel .carousel-inner .carousel-item .d-block .row .col-lg-8{
+padding: 10%;
+}
+.main h1{
+  color: white;
+  font-size: 4.5rem;
+  font-family: 'Staatliches', cursive;
+}
+.main p{
+  color: white;
+  font-size: 2rem;
+  font-family: 'Heebo', sans-serif;
+}
+.w-100{
+  height: 600px;
+}
+.carousel-indicators .active {
+    background-color: #10b2b2;
+}
+.carousel-indicators  {
+    background-color: transparent;
+}
+.about-us-heading{
+  font-family: 'Spectral', serif;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
 .main h1 {
   font-family: 'Spectral', serif;
   color: white;
@@ -926,7 +976,9 @@ footer {
 .left {
   text-align: left;
 }
-
+                                        /*CLIENTELE /////////////////////////////////////
+                                        ////////////////////////////////////////////
+                                        ////////////////////////////*/
 .clientele {
   box-sizing: border-box;
   margin-left: 0;
@@ -1031,7 +1083,9 @@ footer {
 .cyan {
   color: #10b2b2;
 }
-
+.mob{
+  display: none;
+}
 @media only screen and (max-width: 1134px) {
   .black h1 {
     font-size: 3rem;
@@ -1158,5 +1212,39 @@ footer {
   h1.our{
     font-size: 6rem;
     padding-top: 214px;
+  }
+  .black{
+    display: none;
+  }
+  .rectangle{
+    display: none;
+  }
+  .white{
+    display: none;
+  }
+  .about-us{
+    display: none;
+  }
+  .banner-one .banner-two .banner-three .banner{
+    display: none;
+  }
+  .p-one{
+    display: none;
+  }
+  .banner{
+    display: none;
+  }
+  
+  .team{
+    display: none;
+  }
+  .pc {
+    display: none;
+  }
+  .mob{
+    display:block;
+  }
+  .main{
+    display: none;
   }
 }
