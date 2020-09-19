@@ -1,3 +1,44 @@
+
+
+$(document).ready(function() {
+           $(".menu-icon").on("click", function() {
+                 $("nav ul").toggleClass("showing");
+           });
+     });
+
+     // Scrolling Effect
+
+     $(window).on("scroll", function() {
+           if($(window).scrollTop()) {
+                 $('nav').addClass('black');
+           }
+
+           else {
+                 $('nav').removeClass('black');
+           }
+     })
+
+     $(window).on("scroll", function() {
+           if($(window).scrollTop()) {
+                 $('.donny').addClass('purple');
+           }
+
+           else {
+                 $('.donny').removeClass('purple');
+           }
+     })
+
+
+
+
+
+
+
+
+
+
+
+
 $(window).on('scroll', function () {
   var scrollPos = $(window).scrollTop()
   var winHeight = $(window).height()
@@ -143,6 +184,3 @@ $(window).scroll(function() {
     $(".our-contact").removeClass("rev-block");
   }
 });
-
-
-

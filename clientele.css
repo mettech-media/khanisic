@@ -387,5 +387,8 @@ body{
   .contactfoot{
     color: white;
   }
+  .clientele{
+    display: block;
+  }
   
 }
